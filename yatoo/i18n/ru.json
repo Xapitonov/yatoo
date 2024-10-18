@@ -1,0 +1,80 @@
+{
+  "components": {
+    "dialogs": {
+      "DeleteDialog": {
+        "cancel": "Отмена",
+        "delete": "Удалить"
+      },
+      "LabelEditDialog": {
+        "delete": "Удалить ярлык",
+        "save": "Сохранить ярлык",
+        "title": "Изменить ярлык"
+      },
+      "LabelSelectDialog": {
+        "discard": "Отменить изменения",
+        "placeholder": "Добавить ярлыки...",
+        "save": "Сохранить ярлыки",
+        "title": "Выбрать ярлыки"
+      }
+    },
+    "FilterBar": {
+      "noAvailableFilters": "Нет доступных фильтров...",
+      "placeholder": "Добавить фильтры..."
+    },
+    "navigation": {
+      "LabelNavigationItem": {
+        "deleteLabel": "Удалить ярлык",
+        "deleteLabelWithLabelName": "Удалить ярлык \"{labelName}\"",
+        "editLabel": "Изменить ярлык",
+        "noLabelName": "без названия"
+      }
+    },
+    "NavigationBar": {
+      "labels": "Ярлыки",
+      "noLabels": "нет ярлыков",
+      "settings": "Настройки",
+      "todos": "Задачи"
+    },
+    "todos": {
+      "TodoSidebar": {
+        "deleteTodo": "Удалить задачу",
+        "labels": "Ярлыки"
+      }
+    }
+  },
+  "entities": {
+    "label": {
+      "color": "Цвет",
+      "icon": "Значок",
+      "name": "Имя"
+    },
+    "todo": {
+      "title": "Название",
+      "description": "Описание"
+    }
+  },
+  "errors": {
+    "wrongFileFormat": "Неправильный формат файла"
+  },
+  "plugins": {
+    "importExportPlugin": {
+      "export": "Экспорт",
+      "fileSaved": "Файл сохранен",
+      "import": "Импорт",
+      "importSuccessful": "Импорт успешен",
+      "label": "Импорт / Экспорт",
+      "overwrite": "Перезаписать",
+      "storedDataNewerThanImportData": "Сохраненные данные новее, чем импортируемые данные"
+    }
+  },
+  "routes": {
+    "label": "Ярлык",
+    "settings": "Настройки",
+    "todos": "Задачи"
+  },
+  "views": {
+    "settings": {
+      "plugins": "Плагины"
+    }
+  }
+}
